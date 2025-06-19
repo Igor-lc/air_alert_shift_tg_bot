@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Log files
+*.log
+log.txt
+log_report.txt
+
+# User data / shift data
+shift_data.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Python cache and temp files
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Backup files
+*~
+
+# Token or secrets file (if moved to separate file)
+*.secrets
+*.env
