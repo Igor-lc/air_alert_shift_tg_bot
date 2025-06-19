@@ -10,7 +10,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("TOKEN")
 ALERT_API = "https://alerts.com.ua/api/states"
 CITY_NAME = "м. Київ"
 LOG_FILE = "log.txt"
